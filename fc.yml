@@ -5,5 +5,5 @@
     - name: file creation
       file:
         path: /etc/foo.txt
-        state: file
+        state: touch
         mode: '0755'
