@@ -1,0 +1,7 @@
+- name: syslogd restart
+  hosts: all
+  tasks:
+    - name: syslogd
+      service:
+	      name: syslogd
+      	state: restart
