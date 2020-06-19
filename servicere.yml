@@ -3,5 +3,6 @@
   tasks:
     - name: syslogd
       service:
-	      name: syslogd
-      	state: restart
+         name: syslogd
+         state: restart
+
