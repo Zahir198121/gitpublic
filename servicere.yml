@@ -1,8 +1,8 @@
 - name: syslogd restart
   hosts: all
   tasks:
-    - name: syslogd
+    - name: rsyslog
       service:
-         name: syslogd
+         name: rsyslog
          state: restart
 
