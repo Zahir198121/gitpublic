@@ -4,6 +4,6 @@
   tasks:
     - name: file creation
       file:
-        path: /etc/foo.txt
+        path: /etc/towertest.txt
         state: touch
         mode: '0755'
